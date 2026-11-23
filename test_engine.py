@@ -1,7 +1,7 @@
 """Phase 4 scenarios. Expected answers were written before running."""
 from engine import plan_route
 
-# Hand-written KB (placeholder until Eric's real graph is plugged in)
+# Small hand-written KB so the expected answers can be checked by hand
 BASE = {
     ("edge", "Depot", "X", 40), ("edge", "X", "Port", 40),   # 80 km
     ("edge", "Depot", "Y", 50), ("edge", "Y", "Port", 50),   # 100 km
